@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+ paho-mqtt:
+   image: mqttclient/samuel/nocert
+   build:
+     context: ./
+     dockerfile: Dockerfile
+   ports:
+    - 1883:10000
