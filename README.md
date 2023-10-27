@@ -1,3 +1,7 @@
+This repository contains basic MQTT publishers and subscribers made using the Paho python library.
+Additionally, a seperate folder is available for creating docker containers to run the clients.
+Instructions are available below:
+
 Ensure all commands are performed in either powershell or bash. 
 This folder contains ple mqtt clients written in python using the paho-mqtt library for publishing and subscribing respectively. 
 A folder is also available for creating docker containers which use these clients. 
